@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.japan {
+    background-color: #fdefef;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fontchangerheading {
+    font-size: small;
+    font-family: calibri;
+}
+
+.hrcolor {
+    background-color: #fdefef;
+}
+
+hr.new4 {
+    border: none;
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px solid #999095;
+    box-shadow: 5px 5px 5px -5px #333;
+
+}
+
+.welcomefont{
+    font-size: 80px;
+    font-family: Roboto,Afacad Flux,
+    Oswald;
+}
+
+.curved-image-container {
+    position: relative;
+    width: 500px; 
+    max-width: 5000px; 
+}
+
+.curved-image {
+    width: 100%;
+    height: auto;
+    border-radius: 90% 0 0 90%;
+    object-fit: cover;
+}
+
+.margin2{
+    margin-top: -70px;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #ECE9E6 0%, #e05faa  51%, #dd5ad7  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);            
+    
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ .buttonfont{
+    font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+ 
+ }
+
+ .categories {
+    text-align: center;
+  
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 20px; 
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img {
+    width: 172px;
+    height: 252px; 
+    border-radius: 40%; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fontsixe{
+    font-size: 72px;
+    text-align: left;
+}
+
+.imageround{
+    width: 500px;
+    height: 500px; 
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-right: 40px
+}
+
+.pointof{
+    color: #000000;
+    font-family: Overpass;
+    font-size: 50px;
+    margin-left: 61px;
+}
+.bigtable{
+    width: 94%;
+    border-collapse: collapse;
+    border: 1px solid #CA9292;
+    align-items: center;
+    margin-left: 55px;
+  }
+  .bigtable td{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #CA9292;
+    color:#B16464;
+  }
+  
+.bigtable li{
+    margin-left: 79px;
+}
+
+.bigtable th{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    font-weight:lighter;
+    border: 1px solid #CA9292;
+    color:#B16464;
+    
+}
+.hospitality{
+    width: 420px;
+    height: 500px; 
+    border-radius: 40%;
+    margin-left: 120px;
+    margin-right: 40px
+}
+
+.para{
+  
+    background-color: rgb(255, 255, 255); color: #555; padding-left: 21px;
+    border-left-width: 0px;
+  border-left-style: solid;
+  margin-left: 45px;
+  margin-right: 194px;
+  border-top-width: 0px;
+  border-top-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  margin-top: 15px;
+
+}
+
+#lastpara{
+    color: #555;
+    font-family: Overpass;
+    font-size: 23px;
+
+}
+
+.lastparap{
+    color: #555;
+    font-family:Jost;
+    font-size: 15px;
+
+}
+
+.lasttable td{
+    padding-left: 18px;
+    padding-bottom: 18px;
+    padding-right: 18px;
+    vertical-align: top;
+  
+}
+#flag{
+
+    background-color: #F2DADA;
+}
